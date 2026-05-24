@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(example_interfaces REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 add_executable(test_node src/my_first_node.cpp)
 add_executable(number_publisher src/number_publisher.cpp)
