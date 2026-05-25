@@ -1,0 +1,34 @@
+[0.006s] Invoking command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.026s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.171s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.195s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.202s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.249s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.250s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.283s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.308s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.327s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.349s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.397s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.397s] -- Configured cppcheck include dirs: 
+[0.397s] -- Configured cppcheck exclude dirs and/or files: 
+[0.397s] -- Added test 'lint_cmake' to check CMake code style
+[0.397s] -- Added test 'uncrustify' to check C / C++ code style
+[0.397s] -- Configured uncrustify additional arguments: 
+[0.398s] -- Added test 'xmllint' to check XML markup files
+[0.398s] -- Configuring done (0.4s)
+[0.407s] -- Generating done (0.0s)
+[0.410s] -- Build files have been written to: /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg
+[0.449s] [ 33%] Built target test_node
+[0.451s] [ 66%] Built target number_subscriber
+[0.452s] [ 83%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[0.592s] [01m[K/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmy_custom_interfaces/msg/hardware_status.hpp: No such file or directory
+[0.592s]     3 | #include [01;31m[K"my_custom_interfaces/msg/hardware_status.hpp"[m[K
+[0.593s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.593s] compilation terminated.
+[0.608s] gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+[0.609s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/number_publisher.dir/all] Error 2
+[0.609s] gmake: *** [Makefile:146: all] Error 2
+[0.611s] Invoked command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg -- -j20 -l20

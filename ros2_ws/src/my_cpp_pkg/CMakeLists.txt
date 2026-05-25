@@ -10,12 +10,13 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(example_interfaces REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(my_custom_interfaces REQUIRED)
 
 add_executable(test_node src/my_first_node.cpp)
 add_executable(number_publisher src/number_publisher.cpp)
 add_executable(number_subscriber src/number_counter.cpp)
 ament_target_dependencies(test_node rclcpp example_interfaces)
-ament_target_dependencies(number_publisher rclcpp example_interfaces)
+ament_target_dependencies(number_publisher rclcpp example_interfaces my_custom_interfaces)
 ament_target_dependencies(number_subscriber rclcpp example_interfaces)
 
 install(TARGETS

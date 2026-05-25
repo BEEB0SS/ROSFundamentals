@@ -1,0 +1,25 @@
+[0.006s] Invoking command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces -- -j20 -l20
+[0.044s] [  2%] Built target my_custom_interfaces__rs
+[0.047s] [  5%] Built target my_custom_interfaces__rosidl_generator_type_description
+[0.056s] [  5%] Built target ament_cmake_python_copy_my_custom_interfaces
+[0.059s] [  8%] Built target my_custom_interfaces__cpp
+[0.060s] [ 22%] Built target my_custom_interfaces__rosidl_generator_c
+[0.073s] [ 31%] Built target my_custom_interfaces__rosidl_typesupport_cpp
+[0.077s] [ 40%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.077s] [ 48%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.077s] [ 57%] Built target my_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.078s] [ 71%] Built target my_custom_interfaces__rosidl_typesupport_introspection_c
+[0.078s] [ 74%] Built target my_custom_interfaces__rosidl_typesupport_c
+[0.093s] [ 74%] Built target my_custom_interfaces
+[0.110s] [ 77%] Built target my_custom_interfaces__py
+[0.128s] [ 82%] Built target my_custom_interfaces__rosidl_generator_py
+[0.142s] [ 88%] Built target my_custom_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.145s] [ 94%] Built target my_custom_interfaces_s__rosidl_typesupport_introspection_c
+[0.146s] [100%] Built target my_custom_interfaces_s__rosidl_typesupport_c
+[0.202s] running egg_info
+[0.209s] writing my_custom_interfaces.egg-info/PKG-INFO
+[0.209s] writing dependency_links to my_custom_interfaces.egg-info/dependency_links.txt
+[0.209s] writing top-level names to my_custom_interfaces.egg-info/top_level.txt
+[0.231s] reading manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'
+[0.231s] writing manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'
+[0.251s] [100%] Built target ament_cmake_python_build_my_custom_interfaces_egg

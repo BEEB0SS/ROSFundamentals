@@ -1,0 +1,27 @@
+[ 16%] Building CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o
+[ 66%] Built target test_node
+[ 83%] Built target number_subscriber
+[100%] Linking CXX executable number_publisher
+[100%] Built target number_publisher
+-- Install configuration: ""
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/test_node
+-- Set non-toolchain portion of runtime path of "/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/test_node" to ""
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+-- Set non-toolchain portion of runtime path of "/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_subscriber
+-- Set non-toolchain portion of runtime path of "/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_subscriber" to ""
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Installing: /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

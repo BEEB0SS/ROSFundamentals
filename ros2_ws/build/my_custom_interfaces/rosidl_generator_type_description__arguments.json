@@ -1,0 +1,7 @@
+{
+  "package_name": "my_custom_interfaces",
+  "output_dir": "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_type_description/my_custom_interfaces",
+  "idl_tuples": [
+    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces:msg/HardwareStatus.idl"
+  ]
+}

@@ -1,1 +1,1 @@
-example_interfaces:rclpy
+example_interfaces:my_custom_interfaces:rclpy:sensor_msgs

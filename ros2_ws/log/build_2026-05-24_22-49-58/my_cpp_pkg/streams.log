@@ -1,0 +1,63 @@
+[0.007s] Invoking command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg
+[0.044s] -- The C compiler identification is GNU 13.3.0
+[0.077s] -- The CXX compiler identification is GNU 13.3.0
+[0.092s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.166s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.262s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.263s] -- Detecting CXX compile features
+[0.263s] -- Detecting CXX compile features - done
+[0.265s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.387s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.463s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.495s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.503s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.547s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.548s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.601s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.611s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.655s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.676s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.699s] -- Found my_custom_interfaces: 0.0.0 (/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake)
+[0.705s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.768s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.768s] -- Configured cppcheck include dirs: 
+[0.768s] -- Configured cppcheck exclude dirs and/or files: 
+[0.769s] -- Added test 'lint_cmake' to check CMake code style
+[0.769s] -- Added test 'uncrustify' to check C / C++ code style
+[0.769s] -- Configured uncrustify additional arguments: 
+[0.769s] -- Added test 'xmllint' to check XML markup files
+[0.769s] -- Configuring done (0.8s)
+[0.779s] -- Generating done (0.0s)
+[0.782s] -- Build files have been written to: /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg
+[0.791s] Invoked command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg
+[0.791s] Invoking command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.825s] [ 16%] Building CXX object CMakeFiles/number_subscriber.dir/src/number_counter.cpp.o
+[0.826s] [ 33%] Building CXX object CMakeFiles/test_node.dir/src/my_first_node.cpp.o
+[0.829s] [ 50%] Building CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o
+[1.797s] /home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp: In constructor ‘NumberPublisherNode::NumberPublisherNode()’:
+[1.797s] /home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:11:9: error: ‘hardware_status_publisher_’ was not declared in this scope; did you mean ‘hardware_status_timer_’?
+[1.797s]    11 |         hardware_status_publisher_ = this->create_publisher<my_custom_interfaces::msg::HardwareStatus>("hardware_status", 10);
+[1.797s]       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.797s]       |         hardware_status_timer_
+[1.808s] /home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp: In member function ‘void NumberPublisherNode::publishHardwareStatus()’:
+[1.808s] /home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg/src/number_publisher.cpp:29:9: error: ‘hardware_status_publisher_’ was not declared in this scope; did you mean ‘hardware_status_timer_’?
+[1.808s]    29 |         hardware_status_publisher_->publish(msg);
+[1.808s]       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.808s]       |         hardware_status_timer_
+[2.229s] [ 66%] Linking CXX executable test_node
+[2.295s] [ 66%] Built target test_node
+[2.557s] gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+[2.557s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/number_publisher.dir/all] Error 2
+[2.557s] gmake[1]: *** Waiting for unfinished jobs....
+[3.994s] [ 83%] Linking CXX executable number_subscriber
+[4.143s] [ 83%] Built target number_subscriber
+[4.143s] gmake: *** [Makefile:146: all] Error 2
+[4.146s] Invoked command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg' returned '2': AMENT_PREFIX_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_cpp_pkg -- -j20 -l20
