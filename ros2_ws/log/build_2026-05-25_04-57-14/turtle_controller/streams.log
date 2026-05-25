@@ -1,0 +1,35 @@
+[0.499s] Invoking command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/turtle_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build install --record /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
+[0.662s] running egg_info
+[0.662s] creating ../../build/turtle_controller/turtle_controller.egg-info
+[0.668s] writing ../../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+[0.669s] writing dependency_links to ../../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+[0.669s] writing requirements to ../../build/turtle_controller/turtle_controller.egg-info/requires.txt
+[0.669s] writing top-level names to ../../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+[0.669s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.686s] reading manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.686s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.686s] running build
+[0.686s] running build_py
+[0.686s] creating /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build
+[0.686s] creating /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build/lib
+[0.686s] creating /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[0.686s] copying turtle_controller/turtle_controller.py -> /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[0.686s] copying turtle_controller/__init__.py -> /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[0.686s] running install
+[0.690s] running install_lib
+[0.698s] creating /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller
+[0.698s] copying /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build/lib/turtle_controller/turtle_controller.py -> /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller
+[0.698s] copying /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build/lib/turtle_controller/__init__.py -> /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller
+[0.698s] byte-compiling /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller/turtle_controller.py to turtle_controller.cpython-312.pyc
+[0.699s] byte-compiling /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller/__init__.py to __init__.cpython-312.pyc
+[0.699s] running install_data
+[0.699s] creating /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/share/ament_index
+[0.699s] creating /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/share/ament_index/resource_index
+[0.699s] creating /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[0.699s] copying resource/turtle_controller -> /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[0.699s] copying package.xml -> /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/share/turtle_controller
+[0.699s] running install_egg_info
+[0.707s] Copying ../../build/turtle_controller/turtle_controller.egg-info to /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller-0.0.0-py3.12.egg-info
+[0.708s] running install_scripts
+[0.776s] writing list of installed files to '/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/install.log'
+[0.797s] Invoked command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/turtle_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build install --record /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
