@@ -71,6 +71,11 @@ CMakeFiles/my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/
 CMakeFiles/my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/msg/detail/hardware_status__struct.hpp
 CMakeFiles/my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/msg/detail/hardware_status__traits.hpp
 CMakeFiles/my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/msg/detail/hardware_status__type_support.hpp
+CMakeFiles/my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/srv/reset_counter.hpp
+CMakeFiles/my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__builder.hpp
+CMakeFiles/my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__struct.hpp
+CMakeFiles/my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__traits.hpp
+CMakeFiles/my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__type_support.hpp
 CMakeFiles/my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -93,6 +98,10 @@ rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp: /opt/ros/jazz
 rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp: rosidl_adapter/my_custom_interfaces/msg/HardwareStatus.idl
+rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp: rosidl_adapter/my_custom_interfaces/srv/ResetCounter.idl
+rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -108,6 +117,21 @@ rosidl_generator_cpp/my_custom_interfaces/msg/detail/hardware_status__traits.hpp
 rosidl_generator_cpp/my_custom_interfaces/msg/detail/hardware_status__type_support.hpp: rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_custom_interfaces/msg/detail/hardware_status__type_support.hpp
 
+rosidl_generator_cpp/my_custom_interfaces/srv/reset_counter.hpp: rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_custom_interfaces/srv/reset_counter.hpp
+
+rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__builder.hpp: rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__builder.hpp
+
+rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__struct.hpp: rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__struct.hpp
+
+rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__traits.hpp: rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__traits.hpp
+
+rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__type_support.hpp: rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__type_support.hpp
+
 rosidl_generator_cpp/my_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
@@ -118,6 +142,11 @@ my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/msg/detail/
 my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/msg/detail/hardware_status__type_support.hpp
 my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp
 my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__builder.hpp
+my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__struct.hpp
+my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__traits.hpp
+my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__type_support.hpp
+my_custom_interfaces__cpp: rosidl_generator_cpp/my_custom_interfaces/srv/reset_counter.hpp
 my_custom_interfaces__cpp: CMakeFiles/my_custom_interfaces__cpp.dir/build.make
 .PHONY : my_custom_interfaces__cpp
 

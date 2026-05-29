@@ -16,6 +16,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs/my_custom_interfaces/rust/build.rs" "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs"
   "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs/my_custom_interfaces/rust/src/msg.rs" "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs"
   "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs/my_custom_interfaces/rust/src/msg/rmw.rs" "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs"
+  "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs/my_custom_interfaces/rust/src/srv.rs" "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs"
+  "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs/my_custom_interfaces/rust/src/srv/rmw.rs" "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs"
   )
 
 

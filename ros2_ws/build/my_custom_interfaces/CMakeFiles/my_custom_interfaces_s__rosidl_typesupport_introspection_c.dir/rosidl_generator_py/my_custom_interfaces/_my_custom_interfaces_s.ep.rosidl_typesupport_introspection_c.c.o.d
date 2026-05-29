@@ -231,4 +231,9 @@ CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl
  /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.h \
  /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__struct.h \
- /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__functions.h
+ /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__functions.h \
+ /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.h \
+ /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__struct.h \
+ /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.h

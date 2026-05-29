@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_custom_interfaces/srv/ResetCounter_Request",
+      "fields": [
+        {
+          "name": "reset_value",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_custom_interfaces/srv/ResetCounter_Request",
+      "hash_string": "RIHS01_452e056f51030a1605a63c2b34a059a537815ad292bd70da3001094df9c43ceb"
+    }
+  ]
+}

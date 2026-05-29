@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DFASTCDR_DYN_LINK -DROSIDL_TYPESUPPORT_FASTRTPS_C_BUILDING_DLL_my_custom_interfaces -DROS_PACKAGE_NAME=\"my_custom_interfaces\"
 
-CXX_INCLUDES = -I/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_typesupport_fastrtps_c -I/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c
+CXX_INCLUDES = -I/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_typesupport_fastrtps_c -I/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces
 
 CXX_FLAGS = -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic
 

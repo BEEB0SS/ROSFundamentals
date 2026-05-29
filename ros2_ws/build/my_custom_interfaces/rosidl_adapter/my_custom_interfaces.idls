@@ -1,1 +1,2 @@
 /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces:msg/HardwareStatus.idl
+/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces:srv/ResetCounter.idl

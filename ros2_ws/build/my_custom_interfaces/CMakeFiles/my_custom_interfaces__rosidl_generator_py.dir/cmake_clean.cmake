@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/msg/_hardware_status_s.c.o"
   "CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/msg/_hardware_status_s.c.o.d"
+  "CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/srv/_reset_counter_s.c.o"
+  "CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/srv/_reset_counter_s.c.o.d"
   "libmy_custom_interfaces__rosidl_generator_py.pdb"
   "libmy_custom_interfaces__rosidl_generator_py.so"
 )

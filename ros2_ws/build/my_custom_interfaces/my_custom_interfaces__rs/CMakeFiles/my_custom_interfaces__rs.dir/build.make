@@ -71,6 +71,8 @@ include /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/
 /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/my_custom_interfaces__rs/CMakeFiles/my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/Cargo.toml
 /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/my_custom_interfaces__rs/CMakeFiles/my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/src/msg.rs
 /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/my_custom_interfaces__rs/CMakeFiles/my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/src/msg/rmw.rs
+/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/my_custom_interfaces__rs/CMakeFiles/my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/src/srv.rs
+/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/my_custom_interfaces__rs/CMakeFiles/my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/src/srv/rmw.rs
 
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/lib/rosidl_generator_rs/rosidl_generator_rs
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py
@@ -85,7 +87,12 @@ rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/r
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: rosidl_adapter/my_custom_interfaces/msg/HardwareStatus.idl
+rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: rosidl_adapter/my_custom_interfaces/srv/ResetCounter.idl
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: rosidl_adapter/my_custom_interfaces/msg/HardwareStatus.idl
+rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: rosidl_adapter/my_custom_interfaces/srv/ResetCounter.idl
+rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
 	cd /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/my_custom_interfaces__rs && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -101,12 +108,20 @@ rosidl_generator_rs/my_custom_interfaces/rust/src/msg.rs: rosidl_generator_rs/my
 rosidl_generator_rs/my_custom_interfaces/rust/src/msg/rmw.rs: rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/my_custom_interfaces/rust/src/msg/rmw.rs
 
+rosidl_generator_rs/my_custom_interfaces/rust/src/srv.rs: rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/my_custom_interfaces/rust/src/srv.rs
+
+rosidl_generator_rs/my_custom_interfaces/rust/src/srv/rmw.rs: rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/my_custom_interfaces/rust/src/srv/rmw.rs
+
 my_custom_interfaces__rs: /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/my_custom_interfaces__rs/CMakeFiles/my_custom_interfaces__rs
 my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/Cargo.toml
 my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/build.rs
 my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs
 my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/src/msg.rs
 my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/src/msg/rmw.rs
+my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/src/srv.rs
+my_custom_interfaces__rs: rosidl_generator_rs/my_custom_interfaces/rust/src/srv/rmw.rs
 my_custom_interfaces__rs: /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/my_custom_interfaces__rs/CMakeFiles/my_custom_interfaces__rs.dir/build.make
 .PHONY : my_custom_interfaces__rs
 

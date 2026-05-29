@@ -6,6 +6,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/my_custom_interfaces/msg/detail/hardware_status__type_support.hpp"
   "rosidl_generator_cpp/my_custom_interfaces/msg/hardware_status.hpp"
   "rosidl_generator_cpp/my_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp"
+  "rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__builder.hpp"
+  "rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__struct.hpp"
+  "rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__traits.hpp"
+  "rosidl_generator_cpp/my_custom_interfaces/srv/detail/reset_counter__type_support.hpp"
+  "rosidl_generator_cpp/my_custom_interfaces/srv/reset_counter.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROSIDL_GENERATOR_C_BUILDING_DLL_my_custom_interfaces -DROS_PACKAGE_NAME=\"my_custom_interfaces\"
 
-C_INCLUDES = -I/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface
 
 C_FLAGS = -std=gnu11 -fPIC -Wall
 

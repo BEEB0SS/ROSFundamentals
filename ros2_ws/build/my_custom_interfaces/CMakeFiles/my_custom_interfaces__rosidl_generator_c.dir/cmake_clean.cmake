@@ -5,6 +5,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__functions.c.o.d"
   "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.c.o"
   "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.c.o.d"
+  "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__description.c.o"
+  "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__description.c.o.d"
+  "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.c.o"
+  "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.c.o.d"
+  "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c.o"
+  "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c.o.d"
   "libmy_custom_interfaces__rosidl_generator_c.pdb"
   "libmy_custom_interfaces__rosidl_generator_c.so"
   "rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__description.c"
@@ -14,6 +20,13 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.c"
   "rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.h"
   "rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h"
+  "rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__description.c"
+  "rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.c"
+  "rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.h"
+  "rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__struct.h"
+  "rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c"
+  "rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.h"
+  "rosidl_generator_c/my_custom_interfaces/srv/reset_counter.h"
 )
 
 # Per-language clean rules from dependency scanning.

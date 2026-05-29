@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_custom_interfaces__rosidl_generator_type_description"
   "rosidl_generator_type_description/my_custom_interfaces/msg/HardwareStatus.json"
+  "rosidl_generator_type_description/my_custom_interfaces/srv/ResetCounter.json"
 )
 
 # Per-language clean rules from dependency scanning.
