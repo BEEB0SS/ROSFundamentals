@@ -224,17 +224,30 @@ number_publisher/fast:
 .PHONY : number_publisher/fast
 
 #=============================================================================
-# Target rules for targets named number_subscriber
+# Target rules for targets named number_counter
 
 # Build rule for target.
-number_subscriber: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 number_subscriber
-.PHONY : number_subscriber
+number_counter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 number_counter
+.PHONY : number_counter
 
 # fast build rule for target.
-number_subscriber/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_subscriber.dir/build.make CMakeFiles/number_subscriber.dir/build
-.PHONY : number_subscriber/fast
+number_counter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/build
+.PHONY : number_counter/fast
+
+#=============================================================================
+# Target rules for targets named reset_counter_client
+
+# Build rule for target.
+reset_counter_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reset_counter_client
+.PHONY : reset_counter_client
+
+# fast build rule for target.
+reset_counter_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter_client.dir/build.make CMakeFiles/reset_counter_client.dir/build
+.PHONY : reset_counter_client/fast
 
 src/my_first_node.o: src/my_first_node.cpp.o
 .PHONY : src/my_first_node.o
@@ -265,7 +278,7 @@ src/number_counter.o: src/number_counter.cpp.o
 
 # target to build an object file
 src/number_counter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_subscriber.dir/build.make CMakeFiles/number_subscriber.dir/src/number_counter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.o
 .PHONY : src/number_counter.cpp.o
 
 src/number_counter.i: src/number_counter.cpp.i
@@ -273,7 +286,7 @@ src/number_counter.i: src/number_counter.cpp.i
 
 # target to preprocess a source file
 src/number_counter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_subscriber.dir/build.make CMakeFiles/number_subscriber.dir/src/number_counter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.i
 .PHONY : src/number_counter.cpp.i
 
 src/number_counter.s: src/number_counter.cpp.s
@@ -281,7 +294,7 @@ src/number_counter.s: src/number_counter.cpp.s
 
 # target to generate assembly for a file
 src/number_counter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_subscriber.dir/build.make CMakeFiles/number_subscriber.dir/src/number_counter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.s
 .PHONY : src/number_counter.cpp.s
 
 src/number_publisher.o: src/number_publisher.cpp.o
@@ -308,6 +321,30 @@ src/number_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/number_publisher.cpp.s
 .PHONY : src/number_publisher.cpp.s
 
+src/reset_counter_client.o: src/reset_counter_client.cpp.o
+.PHONY : src/reset_counter_client.o
+
+# target to build an object file
+src/reset_counter_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter_client.dir/build.make CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.o
+.PHONY : src/reset_counter_client.cpp.o
+
+src/reset_counter_client.i: src/reset_counter_client.cpp.i
+.PHONY : src/reset_counter_client.i
+
+# target to preprocess a source file
+src/reset_counter_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter_client.dir/build.make CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.i
+.PHONY : src/reset_counter_client.cpp.i
+
+src/reset_counter_client.s: src/reset_counter_client.cpp.s
+.PHONY : src/reset_counter_client.s
+
+# target to generate assembly for a file
+src/reset_counter_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset_counter_client.dir/build.make CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.s
+.PHONY : src/reset_counter_client.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -323,8 +360,9 @@ help:
 	@echo "... test"
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... number_counter"
 	@echo "... number_publisher"
-	@echo "... number_subscriber"
+	@echo "... reset_counter_client"
 	@echo "... test_node"
 	@echo "... src/my_first_node.o"
 	@echo "... src/my_first_node.i"
@@ -335,6 +373,9 @@ help:
 	@echo "... src/number_publisher.o"
 	@echo "... src/number_publisher.i"
 	@echo "... src/number_publisher.s"
+	@echo "... src/reset_counter_client.o"
+	@echo "... src/reset_counter_client.i"
+	@echo "... src/reset_counter_client.s"
 .PHONY : help
 
 

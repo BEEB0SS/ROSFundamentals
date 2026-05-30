@@ -1,0 +1,24 @@
+[0.532s] Invoking command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_py_pkg/build install --record /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.712s] running egg_info
+[0.719s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.719s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.719s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.719s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.719s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.735s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.735s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.735s] running build
+[0.735s] running build_py
+[0.735s] running install
+[0.738s] running install_lib
+[0.746s] running install_data
+[0.747s] running install_egg_info
+[0.755s] removing '/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.755s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.755s] running install_scripts
+[0.821s] Installing number_counter script to /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.821s] Installing number_publisher script to /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.821s] Installing reset_counter_client script to /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.821s] Installing test_node script to /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.821s] writing list of installed files to '/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_py_pkg/install.log'
+[0.839s] Invoked command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_py_pkg/build install --record /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

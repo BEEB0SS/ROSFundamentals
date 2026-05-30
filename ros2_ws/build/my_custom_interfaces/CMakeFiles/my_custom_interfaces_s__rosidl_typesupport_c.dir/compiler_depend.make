@@ -6,6 +6,10 @@ CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/
   rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__struct.h \
   rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.h \
   rosidl_generator_c/my_custom_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.h \
+  rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__struct.h \
+  rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.h \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/jazzy/include/rcutils/rcutils/allocator.h \
   /opt/ros/jazzy/include/rcutils/rcutils/macros.h \
   /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
@@ -25,6 +29,7 @@ CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
   /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
   /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/aarch64-linux-gnu/asm/posix_types.h \
@@ -295,7 +300,9 @@ CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/
 
 /usr/include/stdio.h:
 
-/usr/include/asm-generic/posix_types.h:
+/usr/include/sched.h:
+
+/usr/include/python3.12/weakrefobject.h:
 
 /usr/include/aarch64-linux-gnu/sys/types.h:
 
@@ -311,10 +318,6 @@ CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/asm-generic/types.h:
-
 /usr/include/aarch64-linux-gnu/bits/wchar.h:
 
 /usr/include/aarch64-linux-gnu/bits/waitflags.h:
@@ -323,7 +326,7 @@ CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/
 
 /usr/include/aarch64-linux-gnu/bits/byteswap.h:
 
-/usr/include/aarch64-linux-gnu/bits/uio_lim.h:
+rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__struct.h:
 
 /usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
 
@@ -339,11 +342,9 @@ CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/
 
 /usr/include/python3.12/cpython/longintrepr.h:
 
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
-
 /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
+
+rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -407,25 +408,21 @@ CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
 
-/usr/include/inttypes.h:
+/usr/include/python3.12/cpython/modsupport.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
+/usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
 
-/usr/include/aarch64-linux-gnu/bits/timex.h:
+/usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/python3.12/import.h:
-
-/usr/include/python3.12/setobject.h:
-
-/usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h:
-
-/usr/include/aarch64-linux-gnu/bits/environments.h:
+/usr/include/aarch64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/aarch64-linux-gnu/bits/getopt_posix.h:
 
-/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
+
+/usr/include/aarch64-linux-gnu/bits/environments.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -435,8 +432,6 @@ CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/
 
 /usr/include/ctype.h:
 
-/usr/include/python3.12/cpython/modsupport.h:
-
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
@@ -445,11 +440,45 @@ CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/
 
 rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__functions.h:
 
+/usr/include/aarch64-linux-gnu/sys/select.h:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
+
+/opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h:
+
+/usr/include/aarch64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/aarch64-linux-gnu/bits/floatn.h:
+
+rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.h:
+
+/usr/include/aarch64-linux-gnu/bits/sched.h:
+
+rosidl_generator_c/my_custom_interfaces/msg/rosidl_generator_c__visibility_control.h:
+
+/usr/include/python3.12/cpython/import.h:
+
+/usr/include/aarch64-linux-gnu/bits/uio_lim.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+
 /usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/python3.12/sliceobject.h:
+
+/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
+
+/opt/ros/jazzy/include/rcutils/rcutils/sha256.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
 
@@ -465,35 +494,37 @@ rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__functions.h:
 
 /usr/include/aarch64-linux-gnu/asm/bitsperlong.h:
 
-/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
+/usr/include/aarch64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
+/usr/include/aarch64-linux-gnu/bits/fp-fast.h:
 
-/opt/ros/jazzy/include/rcutils/rcutils/sha256.h:
+/usr/include/python3.12/warnings.h:
 
-/usr/include/aarch64-linux-gnu/bits/setjmp.h:
+/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/aarch64-linux-gnu/asm/posix_types.h:
+/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
 
-rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__struct.h:
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
-/usr/include/aarch64-linux-gnu/asm/errno.h:
+/usr/include/aarch64-linux-gnu/bits/posix1_lim.h:
 
-/usr/include/aarch64-linux-gnu/bits/posix_opt.h:
+/usr/include/aarch64-linux-gnu/bits/long-double.h:
 
-/usr/include/aarch64-linux-gnu/bits/floatn.h:
+/opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
 
-rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.h:
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
-/usr/include/python3.12/cpython/complexobject.h:
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
-/usr/include/aarch64-linux-gnu/bits/errno.h:
+/usr/include/python3.12/pyerrors.h:
 
-/usr/include/aarch64-linux-gnu/bits/sched.h:
+/opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h:
 
-rosidl_generator_c/my_custom_interfaces/msg/rosidl_generator_c__visibility_control.h:
+/usr/include/python3.12/fileobject.h:
 
-/usr/include/python3.12/cpython/import.h:
+rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_c.c:
+
+/usr/include/aarch64-linux-gnu/bits/confname.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -509,43 +540,39 @@ rosidl_generator_c/my_custom_interfaces/msg/rosidl_generator_c__visibility_contr
 
 /usr/include/aarch64-linux-gnu/bits/math-vector.h:
 
-/usr/include/aarch64-linux-gnu/sys/select.h:
+/usr/include/aarch64-linux-gnu/asm/errno.h:
 
-/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
+/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
+/usr/include/asm-generic/int-ll64.h:
 
-/opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h:
+/usr/include/python3.12/cpython/complexobject.h:
 
-rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_c.c:
+/usr/include/aarch64-linux-gnu/bits/errno.h:
 
-/usr/include/aarch64-linux-gnu/bits/confname.h:
+/usr/include/inttypes.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/aarch64-linux-gnu/bits/setjmp.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
+rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__struct.h:
 
-/usr/include/python3.12/warnings.h:
+/usr/include/aarch64-linux-gnu/asm/posix_types.h:
 
-/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
+/usr/include/aarch64-linux-gnu/bits/timex.h:
 
-/opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h:
+/usr/include/python3.12/import.h:
 
-/usr/include/python3.12/fileobject.h:
+/usr/include/python3.12/setobject.h:
 
-/opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+/usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
-
-/usr/include/python3.12/pyerrors.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h:
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
 
 /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/aarch64-linux-gnu/asm/types.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
+/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
 
@@ -553,31 +580,21 @@ rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_types
 
 /usr/include/aarch64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/aarch64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/aarch64-linux-gnu/bits/long-double.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/aarch64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/aarch64-linux-gnu/bits/fp-logb.h:
-
 /usr/include/aarch64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
-
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
-
 /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h:
+
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/assert.h:
 
@@ -729,6 +746,8 @@ rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_types
 
 /usr/include/python3.12/objimpl.h:
 
+rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.h:
+
 /usr/include/python3.12/descrobject.h:
 
 /usr/include/python3.12/fileutils.h:
@@ -757,9 +776,9 @@ rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_types
 
 /usr/include/python3.12/osmodule.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
 /opt/ros/jazzy/include/rcutils/rcutils/allocator.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/python3.12/cpython/methodobject.h:
 
@@ -808,7 +827,3 @@ rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_types
 /usr/include/python3.12/tupleobject.h:
 
 /usr/include/python3.12/typeslots.h:
-
-/usr/include/python3.12/weakrefobject.h:
-
-/usr/include/sched.h:

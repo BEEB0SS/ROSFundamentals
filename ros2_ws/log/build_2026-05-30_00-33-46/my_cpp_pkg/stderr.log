@@ -1,0 +1,14 @@
+[01m[K/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg/src/reset_counter_client.cpp:[m[K In constructor ‘[01m[KResetCounterClientNode::[01;32m[KResetCounterClientNode[m[K()[m[K’:
+[01m[K/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg/src/reset_counter_client.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   12 |         [01;31m[Kclient_[m[K = this->create_client<ResetCounter>("reset_counter");
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg/src/reset_counter_client.cpp:[m[K In member function ‘[01m[Kvoid ResetCounterClientNode::[01;32m[KcallResetCounter[m[K(int)[m[K’:
+[01m[K/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg/src/reset_counter_client.cpp:16:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   16 |         while (![01;31m[Kclient_[m[K->wait_for_service(1s)) {
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_cpp_pkg/src/reset_counter_client.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   21 |         [01;31m[Kclient_[m[K->async_send_request(request, std::bind(&ResetCounterClientNode::responseCallback, this, _1));
+      |         [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/reset_counter_client.dir/build.make:76: CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/reset_counter_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

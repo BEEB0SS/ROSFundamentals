@@ -17,10 +17,17 @@ class NumberCounterNode(Node):
         self.get_logger().info(f"Counter: {self.counter_}")
 
     def callback_reset_counter(self, request: ResetCounter.Request, response: ResetCounter.Response):
-        self.counter_ = request.reset_value
-        self.get_logger().info(f"Counter reset to: {self.counter_}")
-        response.success = True
-        response.message = "Successfully reset counter."
+        if request.reset_value < 0:
+            response.success = False
+            response.message = "Cannot reset counter to a negative value."
+        elif request.reset_value > self.counter_:
+            response.success = False
+            response.message = "Cannot reset counter to a value greater than the current counter."
+        else:
+            self.counter_ = request.reset_value
+            self.get_logger().info(f"Counter reset to: {self.counter_}")
+            response.success = True
+            response.message = "Successfully reset counter."
         return response
     
 def main(args=None):

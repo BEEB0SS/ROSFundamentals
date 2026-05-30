@@ -1,0 +1,4 @@
+[ 25%] Built target number_counter
+[ 50%] Built target test_node
+[ 62%] [32mBuilding CXX object CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.o[0m
+[ 87%] Built target number_publisher

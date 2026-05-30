@@ -1,6 +1,7 @@
 /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/test_node
 /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
-/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_subscriber
+/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/reset_counter_client
 /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
 /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
 /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh

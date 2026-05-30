@@ -1,0 +1,21 @@
+[0.511s] Invoking command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/turtle_controller': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build install --record /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
+[0.675s] running egg_info
+[0.682s] writing ../../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+[0.682s] writing dependency_links to ../../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+[0.682s] writing entry points to ../../build/turtle_controller/turtle_controller.egg-info/entry_points.txt
+[0.682s] writing requirements to ../../build/turtle_controller/turtle_controller.egg-info/requires.txt
+[0.682s] writing top-level names to ../../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+[0.698s] reading manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.699s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.699s] running build
+[0.699s] running build_py
+[0.700s] running install
+[0.703s] running install_lib
+[0.711s] running install_data
+[0.711s] running install_egg_info
+[0.720s] removing '/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[0.720s] Copying ../../build/turtle_controller/turtle_controller.egg-info to /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages/turtle_controller-0.0.0-py3.12.egg-info
+[0.721s] running install_scripts
+[0.788s] Installing turtle_controller script to /home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/turtle_controller
+[0.789s] writing list of installed files to '/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/install.log'
+[0.809s] Invoked command in '/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/turtle_controller' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beeboss/Desktop/ros_workspaces/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/build install --record /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
