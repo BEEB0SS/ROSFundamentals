@@ -2,6 +2,7 @@
   "package_name": "my_custom_interfaces",
   "non_idl_tuples": [
     "/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_custom_interfaces:msg/HardwareStatus.msg",
-    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_custom_interfaces:srv/ResetCounter.srv"
+    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_custom_interfaces:srv/ResetCounter.srv",
+    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_custom_interfaces:srv/ActivateTurtle.srv"
   ]
 }

@@ -55,6 +55,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/srv" TYPE FILE FILES "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_type_description/my_custom_interfaces/srv/ActivateTurtle.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/my_custom_interfaces/my_custom_interfaces" TYPE DIRECTORY FILES "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -383,11 +387,19 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/srv" TYPE FILE FILES "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/srv/ActivateTurtle.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/msg" TYPE FILE FILES "/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_custom_interfaces/msg/HardwareStatus.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/srv" TYPE FILE FILES "/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_custom_interfaces/srv/ResetCounter.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/srv" TYPE FILE FILES "/home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_custom_interfaces/srv/ActivateTurtle.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

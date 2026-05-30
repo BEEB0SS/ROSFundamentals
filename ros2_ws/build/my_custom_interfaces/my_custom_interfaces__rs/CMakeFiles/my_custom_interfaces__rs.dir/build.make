@@ -88,8 +88,10 @@ rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/r
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: rosidl_adapter/my_custom_interfaces/msg/HardwareStatus.idl
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: rosidl_adapter/my_custom_interfaces/srv/ResetCounter.idl
+rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: rosidl_adapter/my_custom_interfaces/srv/ActivateTurtle.idl
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: rosidl_adapter/my_custom_interfaces/msg/HardwareStatus.idl
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: rosidl_adapter/my_custom_interfaces/srv/ResetCounter.idl
+rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: rosidl_adapter/my_custom_interfaces/srv/ActivateTurtle.idl
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_rs/my_custom_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl

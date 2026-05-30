@@ -4,11 +4,13 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_rs/cmake/../resource",
   "idl_tuples": [
     "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces:msg/HardwareStatus.idl",
-    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces:srv/ResetCounter.idl"
+    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces:srv/ResetCounter.idl",
+    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces:srv/ActivateTurtle.idl"
   ],
   "ros_interface_files": [
     "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/msg/HardwareStatus.idl",
-    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/srv/ResetCounter.idl"
+    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/srv/ResetCounter.idl",
+    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/srv/ActivateTurtle.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -30,8 +32,10 @@
     "/opt/ros/jazzy/share/rosidl_generator_rs/cmake/../resource/templates/srv_rmw.rs.em",
     "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/msg/HardwareStatus.idl",
     "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/srv/ResetCounter.idl",
+    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/srv/ActivateTurtle.idl",
     "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/msg/HardwareStatus.idl",
     "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/srv/ResetCounter.idl",
+    "/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces/srv/ActivateTurtle.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_custom_interfaces/srv/ActivateTurtle.srv
+// generated code does not contain a copyright notice
+
+
+module my_custom_interfaces {
+  module srv {
+    struct ActivateTurtle_Request {
+      boolean activate;
+    };
+    struct ActivateTurtle_Response {
+      boolean moving;
+    };
+  };
+};

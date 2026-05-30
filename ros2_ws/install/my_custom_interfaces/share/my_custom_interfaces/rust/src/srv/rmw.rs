@@ -158,6 +158,156 @@ impl rosidl_runtime_rs::RmwMessage for ResetCounter_Response where Self: Sized {
 }
 
 
+#[link(name = "my_custom_interfaces__rosidl_typesupport_c")]
+extern "C" {
+    fn rosidl_typesupport_c__get_message_type_support_handle__my_custom_interfaces__srv__ActivateTurtle_Request() -> *const std::ffi::c_void;
+}
+
+#[link(name = "my_custom_interfaces__rosidl_generator_c")]
+extern "C" {
+    fn my_custom_interfaces__srv__ActivateTurtle_Request__init(msg: *mut ActivateTurtle_Request) -> bool;
+    fn my_custom_interfaces__srv__ActivateTurtle_Request__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<ActivateTurtle_Request>, size: usize) -> bool;
+    fn my_custom_interfaces__srv__ActivateTurtle_Request__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<ActivateTurtle_Request>);
+    fn my_custom_interfaces__srv__ActivateTurtle_Request__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<ActivateTurtle_Request>, out_seq: *mut rosidl_runtime_rs::Sequence<ActivateTurtle_Request>) -> bool;
+}
+
+// Corresponds to my_custom_interfaces__srv__ActivateTurtle_Request
+#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
+
+
+// This struct is not documented.
+#[allow(missing_docs)]
+
+#[allow(non_camel_case_types)]
+#[repr(C)]
+#[derive(Clone, Debug, PartialEq, PartialOrd)]
+pub struct ActivateTurtle_Request {
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub activate: bool,
+
+}
+
+
+
+impl Default for ActivateTurtle_Request {
+  fn default() -> Self {
+    unsafe {
+      let mut msg = std::mem::zeroed();
+      if !my_custom_interfaces__srv__ActivateTurtle_Request__init(&mut msg as *mut _) {
+        panic!("Call to my_custom_interfaces__srv__ActivateTurtle_Request__init() failed");
+      }
+      msg
+    }
+  }
+}
+
+impl rosidl_runtime_rs::SequenceAlloc for ActivateTurtle_Request {
+  fn sequence_init(seq: &mut rosidl_runtime_rs::Sequence<Self>, size: usize) -> bool {
+    // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
+    unsafe { my_custom_interfaces__srv__ActivateTurtle_Request__Sequence__init(seq as *mut _, size) }
+  }
+  fn sequence_fini(seq: &mut rosidl_runtime_rs::Sequence<Self>) {
+    // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
+    unsafe { my_custom_interfaces__srv__ActivateTurtle_Request__Sequence__fini(seq as *mut _) }
+  }
+  fn sequence_copy(in_seq: &rosidl_runtime_rs::Sequence<Self>, out_seq: &mut rosidl_runtime_rs::Sequence<Self>) -> bool {
+    // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
+    unsafe { my_custom_interfaces__srv__ActivateTurtle_Request__Sequence__copy(in_seq, out_seq as *mut _) }
+  }
+}
+
+impl rosidl_runtime_rs::Message for ActivateTurtle_Request {
+  type RmwMsg = Self;
+  fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> { msg_cow }
+  fn from_rmw_message(msg: Self::RmwMsg) -> Self { msg }
+}
+
+impl rosidl_runtime_rs::RmwMessage for ActivateTurtle_Request where Self: Sized {
+  const TYPE_NAME: &'static str = "my_custom_interfaces/srv/ActivateTurtle_Request";
+  fn get_type_support() -> *const std::ffi::c_void {
+    // SAFETY: No preconditions for this function.
+    unsafe { rosidl_typesupport_c__get_message_type_support_handle__my_custom_interfaces__srv__ActivateTurtle_Request() }
+  }
+}
+
+
+#[link(name = "my_custom_interfaces__rosidl_typesupport_c")]
+extern "C" {
+    fn rosidl_typesupport_c__get_message_type_support_handle__my_custom_interfaces__srv__ActivateTurtle_Response() -> *const std::ffi::c_void;
+}
+
+#[link(name = "my_custom_interfaces__rosidl_generator_c")]
+extern "C" {
+    fn my_custom_interfaces__srv__ActivateTurtle_Response__init(msg: *mut ActivateTurtle_Response) -> bool;
+    fn my_custom_interfaces__srv__ActivateTurtle_Response__Sequence__init(seq: *mut rosidl_runtime_rs::Sequence<ActivateTurtle_Response>, size: usize) -> bool;
+    fn my_custom_interfaces__srv__ActivateTurtle_Response__Sequence__fini(seq: *mut rosidl_runtime_rs::Sequence<ActivateTurtle_Response>);
+    fn my_custom_interfaces__srv__ActivateTurtle_Response__Sequence__copy(in_seq: &rosidl_runtime_rs::Sequence<ActivateTurtle_Response>, out_seq: *mut rosidl_runtime_rs::Sequence<ActivateTurtle_Response>) -> bool;
+}
+
+// Corresponds to my_custom_interfaces__srv__ActivateTurtle_Response
+#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
+
+
+// This struct is not documented.
+#[allow(missing_docs)]
+
+#[allow(non_camel_case_types)]
+#[repr(C)]
+#[derive(Clone, Debug, PartialEq, PartialOrd)]
+pub struct ActivateTurtle_Response {
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub moving: bool,
+
+}
+
+
+
+impl Default for ActivateTurtle_Response {
+  fn default() -> Self {
+    unsafe {
+      let mut msg = std::mem::zeroed();
+      if !my_custom_interfaces__srv__ActivateTurtle_Response__init(&mut msg as *mut _) {
+        panic!("Call to my_custom_interfaces__srv__ActivateTurtle_Response__init() failed");
+      }
+      msg
+    }
+  }
+}
+
+impl rosidl_runtime_rs::SequenceAlloc for ActivateTurtle_Response {
+  fn sequence_init(seq: &mut rosidl_runtime_rs::Sequence<Self>, size: usize) -> bool {
+    // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
+    unsafe { my_custom_interfaces__srv__ActivateTurtle_Response__Sequence__init(seq as *mut _, size) }
+  }
+  fn sequence_fini(seq: &mut rosidl_runtime_rs::Sequence<Self>) {
+    // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
+    unsafe { my_custom_interfaces__srv__ActivateTurtle_Response__Sequence__fini(seq as *mut _) }
+  }
+  fn sequence_copy(in_seq: &rosidl_runtime_rs::Sequence<Self>, out_seq: &mut rosidl_runtime_rs::Sequence<Self>) -> bool {
+    // SAFETY: This is safe since the pointer is guaranteed to be valid/initialized.
+    unsafe { my_custom_interfaces__srv__ActivateTurtle_Response__Sequence__copy(in_seq, out_seq as *mut _) }
+  }
+}
+
+impl rosidl_runtime_rs::Message for ActivateTurtle_Response {
+  type RmwMsg = Self;
+  fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> { msg_cow }
+  fn from_rmw_message(msg: Self::RmwMsg) -> Self { msg }
+}
+
+impl rosidl_runtime_rs::RmwMessage for ActivateTurtle_Response where Self: Sized {
+  const TYPE_NAME: &'static str = "my_custom_interfaces/srv/ActivateTurtle_Response";
+  fn get_type_support() -> *const std::ffi::c_void {
+    // SAFETY: No preconditions for this function.
+    unsafe { rosidl_typesupport_c__get_message_type_support_handle__my_custom_interfaces__srv__ActivateTurtle_Response() }
+  }
+}
+
+
 
 
 
@@ -178,6 +328,28 @@ impl rosidl_runtime_rs::Service for ResetCounter {
     fn get_type_support() -> *const std::ffi::c_void {
         // SAFETY: No preconditions for this function.
         unsafe { rosidl_typesupport_c__get_service_type_support_handle__my_custom_interfaces__srv__ResetCounter() }
+    }
+}
+
+
+
+
+#[link(name = "my_custom_interfaces__rosidl_typesupport_c")]
+extern "C" {
+    fn rosidl_typesupport_c__get_service_type_support_handle__my_custom_interfaces__srv__ActivateTurtle() -> *const std::ffi::c_void;
+}
+
+// Corresponds to my_custom_interfaces__srv__ActivateTurtle
+#[allow(missing_docs, non_camel_case_types)]
+pub struct ActivateTurtle;
+
+impl rosidl_runtime_rs::Service for ActivateTurtle {
+    type Request = ActivateTurtle_Request;
+    type Response = ActivateTurtle_Response;
+
+    fn get_type_support() -> *const std::ffi::c_void {
+        // SAFETY: No preconditions for this function.
+        unsafe { rosidl_typesupport_c__get_service_type_support_handle__my_custom_interfaces__srv__ActivateTurtle() }
     }
 }
 

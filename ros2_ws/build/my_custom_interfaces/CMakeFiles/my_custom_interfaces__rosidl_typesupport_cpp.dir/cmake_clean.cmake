@@ -1,11 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/msg/hardware_status__type_support.cpp.o"
   "CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/msg/hardware_status__type_support.cpp.o.d"
+  "CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/srv/activate_turtle__type_support.cpp.o"
+  "CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/srv/activate_turtle__type_support.cpp.o.d"
   "CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/srv/reset_counter__type_support.cpp.o"
   "CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/srv/reset_counter__type_support.cpp.o.d"
   "libmy_custom_interfaces__rosidl_typesupport_cpp.pdb"
   "libmy_custom_interfaces__rosidl_typesupport_cpp.so"
   "rosidl_typesupport_cpp/my_custom_interfaces/msg/hardware_status__type_support.cpp"
+  "rosidl_typesupport_cpp/my_custom_interfaces/srv/activate_turtle__type_support.cpp"
   "rosidl_typesupport_cpp/my_custom_interfaces/srv/reset_counter__type_support.cpp"
 )
 

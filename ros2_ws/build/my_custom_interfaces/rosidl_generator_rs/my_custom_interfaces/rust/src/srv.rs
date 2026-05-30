@@ -104,6 +104,98 @@ impl rosidl_runtime_rs::Message for ResetCounter_Response {
 }
 
 
+// Corresponds to my_custom_interfaces__srv__ActivateTurtle_Request
+
+// This struct is not documented.
+#[allow(missing_docs)]
+
+#[allow(non_camel_case_types)]
+#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
+#[derive(Clone, Debug, PartialEq, PartialOrd)]
+pub struct ActivateTurtle_Request {
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub activate: bool,
+
+}
+
+
+
+impl Default for ActivateTurtle_Request {
+  fn default() -> Self {
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::srv::rmw::ActivateTurtle_Request::default())
+  }
+}
+
+impl rosidl_runtime_rs::Message for ActivateTurtle_Request {
+  type RmwMsg = super::srv::rmw::ActivateTurtle_Request;
+
+  fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
+    match msg_cow {
+      std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        activate: msg.activate,
+      }),
+      std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+      activate: msg.activate,
+      })
+    }
+  }
+
+  fn from_rmw_message(msg: Self::RmwMsg) -> Self {
+    Self {
+      activate: msg.activate,
+    }
+  }
+}
+
+
+// Corresponds to my_custom_interfaces__srv__ActivateTurtle_Response
+
+// This struct is not documented.
+#[allow(missing_docs)]
+
+#[allow(non_camel_case_types)]
+#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
+#[derive(Clone, Debug, PartialEq, PartialOrd)]
+pub struct ActivateTurtle_Response {
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub moving: bool,
+
+}
+
+
+
+impl Default for ActivateTurtle_Response {
+  fn default() -> Self {
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::srv::rmw::ActivateTurtle_Response::default())
+  }
+}
+
+impl rosidl_runtime_rs::Message for ActivateTurtle_Response {
+  type RmwMsg = super::srv::rmw::ActivateTurtle_Response;
+
+  fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
+    match msg_cow {
+      std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        moving: msg.moving,
+      }),
+      std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+      moving: msg.moving,
+      })
+    }
+  }
+
+  fn from_rmw_message(msg: Self::RmwMsg) -> Self {
+    Self {
+      moving: msg.moving,
+    }
+  }
+}
+
+
 
 
 
@@ -124,6 +216,28 @@ impl rosidl_runtime_rs::Service for ResetCounter {
     fn get_type_support() -> *const std::ffi::c_void {
         // SAFETY: No preconditions for this function.
         unsafe { rosidl_typesupport_c__get_service_type_support_handle__my_custom_interfaces__srv__ResetCounter() }
+    }
+}
+
+
+
+
+#[link(name = "my_custom_interfaces__rosidl_typesupport_c")]
+extern "C" {
+    fn rosidl_typesupport_c__get_service_type_support_handle__my_custom_interfaces__srv__ActivateTurtle() -> *const std::ffi::c_void;
+}
+
+// Corresponds to my_custom_interfaces__srv__ActivateTurtle
+#[allow(missing_docs, non_camel_case_types)]
+pub struct ActivateTurtle;
+
+impl rosidl_runtime_rs::Service for ActivateTurtle {
+    type Request = ActivateTurtle_Request;
+    type Response = ActivateTurtle_Response;
+
+    fn get_type_support() -> *const std::ffi::c_void {
+        // SAFETY: No preconditions for this function.
+        unsafe { rosidl_typesupport_c__get_service_type_support_handle__my_custom_interfaces__srv__ActivateTurtle() }
     }
 }
 

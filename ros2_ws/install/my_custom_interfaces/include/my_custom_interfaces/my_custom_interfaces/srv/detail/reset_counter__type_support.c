@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "my_custom_interfaces/srv/detail/reset_counter__functions.h"
-#include "my_custom_interfaces/srv/detail/reset_counter__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "my_custom_interfaces/srv/detail/reset_counter__functions.h"
 #include "my_custom_interfaces/srv/detail/reset_counter__type_support.h"
+#include "my_custom_interfaces/srv/detail/reset_counter__struct.h"
 
 #ifdef __cplusplus
 extern "C"

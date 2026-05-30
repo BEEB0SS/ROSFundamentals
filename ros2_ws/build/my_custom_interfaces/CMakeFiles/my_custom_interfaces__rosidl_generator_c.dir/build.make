@@ -90,6 +90,7 @@ rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h: /opt/ros/jazzy/sh
 rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h: rosidl_adapter/my_custom_interfaces/msg/HardwareStatus.idl
 rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h: rosidl_adapter/my_custom_interfaces/srv/ResetCounter.idl
+rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h: rosidl_adapter/my_custom_interfaces/srv/ActivateTurtle.idl
 rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -117,6 +118,18 @@ rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__struct.h: rosi
 rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.h: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.h
 
+rosidl_generator_c/my_custom_interfaces/srv/activate_turtle.h: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_custom_interfaces/srv/activate_turtle.h
+
+rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.h: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.h
+
+rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__struct.h: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__struct.h
+
+rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.h: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.h
+
 rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__description.c: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__description.c
 
@@ -134,6 +147,15 @@ rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.c: r
 
 rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c
+
+rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c
+
+rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c
+
+rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c
 
 CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__description.c.o: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__description.c.o: rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__description.c
@@ -219,6 +241,48 @@ CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c -o CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c.s
 
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.o: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.o: rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.o: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.o -MF CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.o.d -o CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.o -c /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c
+
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c > CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.i
+
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c -o CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.s
+
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.o: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.o: rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.o: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.o -MF CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.o.d -o CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.o -c /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c
+
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c > CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.i
+
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c -o CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.s
+
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.o: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.o: rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.o: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.o -MF CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.o.d -o CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.o -c /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c
+
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c > CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.i
+
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c -o CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.s
+
 # Object files for target my_custom_interfaces__rosidl_generator_c
 my_custom_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__description.c.o" \
@@ -226,7 +290,10 @@ my_custom_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.c.o" \
 "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__description.c.o" \
 "CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.c.o" \
-"CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c.o"
+"CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c.o" \
+"CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.o" \
+"CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.o" \
+"CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.o"
 
 # External object files for target my_custom_interfaces__rosidl_generator_c
 my_custom_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -237,13 +304,16 @@ libmy_custom_interfaces__rosidl_generator_c.so: CMakeFiles/my_custom_interfaces_
 libmy_custom_interfaces__rosidl_generator_c.so: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__description.c.o
 libmy_custom_interfaces__rosidl_generator_c.so: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.c.o
 libmy_custom_interfaces__rosidl_generator_c.so: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__type_support.c.o
+libmy_custom_interfaces__rosidl_generator_c.so: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c.o
+libmy_custom_interfaces__rosidl_generator_c.so: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c.o
+libmy_custom_interfaces__rosidl_generator_c.so: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c.o
 libmy_custom_interfaces__rosidl_generator_c.so: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/build.make
 libmy_custom_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 libmy_custom_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libmy_custom_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libmy_custom_interfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 libmy_custom_interfaces__rosidl_generator_c.so: CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libmy_custom_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/beeboss/Desktop/ros_workspaces/ros2_ws/build/my_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libmy_custom_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -261,6 +331,13 @@ CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator
 CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.c
 CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/msg/detail/hardware_status__type_support.h
 CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/msg/hardware_status.h
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/srv/activate_turtle.h
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__description.c
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.c
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__functions.h
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__struct.h
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.c
+CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/srv/detail/activate_turtle__type_support.h
 CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__description.c
 CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.c
 CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_custom_interfaces/srv/detail/reset_counter__functions.h

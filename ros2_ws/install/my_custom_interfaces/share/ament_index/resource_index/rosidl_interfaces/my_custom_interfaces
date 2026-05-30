@@ -1,4 +1,6 @@
 msg/HardwareStatus.idl
 msg/HardwareStatus.msg
+srv/ActivateTurtle.idl
+srv/ActivateTurtle.srv
 srv/ResetCounter.idl
 srv/ResetCounter.srv

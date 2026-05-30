@@ -68,6 +68,7 @@ include CMakeFiles/my_custom_interfaces.dir/progress.make
 
 CMakeFiles/my_custom_interfaces: /home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_custom_interfaces/msg/HardwareStatus.msg
 CMakeFiles/my_custom_interfaces: /home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_custom_interfaces/srv/ResetCounter.srv
+CMakeFiles/my_custom_interfaces: /home/beeboss/Desktop/ros_workspaces/ros2_ws/src/my_custom_interfaces/srv/ActivateTurtle.srv
 CMakeFiles/my_custom_interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 
 my_custom_interfaces: CMakeFiles/my_custom_interfaces
